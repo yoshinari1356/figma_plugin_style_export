@@ -1,0 +1,7 @@
+{
+  "name": "export_style_page",
+  "id": "804977621810814126",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html"
+}

@@ -1,0 +1,9 @@
+<h2>Rectangle Creator</h2>
+<button id="style_export">Style export</button>
+<script>
+
+document.getElementById('style_export').onclick = () => {
+  parent.postMessage({ pluginMessage: { type: 'style-export' } }, '*')
+}
+
+</script>
